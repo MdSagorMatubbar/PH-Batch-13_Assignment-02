@@ -134,3 +134,118 @@ header nav .bars {
   border-radius: 40px;
   margin-left: 8px;
 }
+
+/* ---- About Section ---- */
+#about-section {
+  background-color: #1A0B2E;
+  /* color: #FFFFFF; */
+  text-align: center;
+}
+
+#about-section .about-txt {
+  padding: 50px 200px 80px;
+  text-align: center;
+}
+
+#about-section .about-txt h1 {
+  color: #FFFFFF;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+#about-section .about-txt p {
+  color: #ffffff9f;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#about-section hr {
+  margin: 0 200px;
+  border: 1px solid #ffffff54;
+}
+
+#about-section .about-card {
+  padding: 80px 200px 120px;
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+#about-section .about-card .card h2 {
+  font-size: 48px;
+  color: #00FF88;
+  margin-bottom: 16px;
+}
+
+#about-section .about-card .card p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff8f;
+}
+
+/* ---- Why Choose Section ---- */
+#why-choose-section {
+  background-color: #230E3D;
+  color: #FFFFFF;
+  padding: 120px 200px;
+}
+
+#why-choose-section h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+#why-choose-section .grid-section {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#why-choose-section .grid-section img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px;
+}
+
+#why-choose-section .grid-section h3 {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+#why-choose-section .grid-section p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffffaa;
+}
+
+#why-choose-section .grid-section .long {
+  display: grid;
+  align-items: center;
+  background-color: #351165;
+  grid-column: span 1;
+  grid-row: span 2;
+  border-radius: 40px;
+  padding: 107px 40px;
+}
+
+#why-choose-section .grid-section .wide {
+  display: grid;
+  align-items: center;
+  background-color: #351165;
+  grid-column: span 2;
+  grid-row: span 1;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+#why-choose-section .grid-section .normal {
+  display: grid;
+  align-items: center;
+  background-color: #351165;
+  padding: 40px;
+  border-radius: 40px;
+}
