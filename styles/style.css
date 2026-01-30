@@ -293,3 +293,76 @@ header nav .bars {
   color: #ffffffb4;
   padding: 0 24px 20px 24px;
 }
+
+
+#featured-episodes-section .meet-the-hots {
+  margin-top: 120px;
+}
+
+#featured-episodes-section .meet-the-hots h1 {
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.meet-the-hots .alex-kumar {
+  display: flex;
+  background-color: #351165;
+  border-radius: 40px;
+}
+
+.meet-the-hots .alex-kumar img {
+  padding: 40px 24px 40px 40px;
+}
+
+.meet-the-hots .alex-kumar .alex-txt {
+  padding: 48px 40px 48px 0;
+  display: grid;
+  align-items: center;
+  /* gap: 16px; */
+}
+
+.meet-the-hots .alex-kumar .alex-txt h2 {
+  font-size: 32px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.meet-the-hots .alex-kumar .alex-txt p {
+  font-size: 16px;
+  color: #ffffff96;
+  line-height: 24px;
+}
+
+
+.meet-the-hots .alex-kumar .alex-txt .alex-logo {
+  display: flex;
+  gap: 8px;
+}
+
+.meet-the-hots .alex-kumar .alex-txt .alex-logo .logo-round {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(106, 61, 61);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.meet-the-hots .alex-kumar .alex-txt .alex-logo .logo-round a i {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(45deg,
+          rgba(247, 233, 63, 1),
+          rgba(251, 9, 180, 1),
+          rgba(145, 0, 248, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+}
