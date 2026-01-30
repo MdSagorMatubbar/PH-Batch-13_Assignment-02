@@ -1,0 +1,157 @@
+ /* -----For small Device------ */
+@media screen and (max-width: 576px) {
+  header nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  header nav .logo {
+    width: 137px;
+    height: 20px;
+  }
+
+  header nav .menu {
+    display: none;
+  }
+
+  header nav button {
+    display: none;
+  }
+
+  header nav .bars {
+    display: flex;
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+  }
+
+  #banner-section .circle-img .circle {
+  width: 250px;
+  height: 250px;
+}
+
+#banner-section .circle-img .mic {
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  top: 42%;
+  left: 49%;
+  transform: translate(-45%, -77%);
+}
+
+#banner-section .circle-img span {
+  top: 25%;
+  left: 60%;
+}
+
+  #about-section .about-txt {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  #about-section hr {
+    margin: 0 20px;
+  }
+
+  #about-section .about-card {
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#about-section .about-card .card h2 {
+  font-size: 40px;
+}
+
+#why-choose-section {
+  padding: 40px 20px;
+}
+
+#why-choose-section h1 {
+  font-size: 32px;
+}
+
+#why-choose-section .grid-section {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(1, 1fr); */
+}
+
+#why-choose-section .grid-section .long {
+  padding: 40px;
+}
+
+#featured-episodes-section {
+  padding: 40px 20px;
+}
+
+#featured-episodes-section .featured-episode {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* flex-wrap: wrap; */
+}
+
+
+#featured-episodes-section .meet-the-hots h1 {
+  font-size: 38px;
+}
+
+#featured-episodes-section .featured-episode .card {
+  width: 99%;
+  /* height: 510px; */
+}
+
+
+
+/* #featured-episodes-section .featured-episode .card .video iframe {
+  height: 300px;
+} */
+
+.meet-the-hots .alex-kumar {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meet-the-hots .alex-kumar img {
+  width: 150px;
+  height: 150px;
+  padding: 20px 0;
+}
+
+.meet-the-hots .alex-kumar .alex-txt {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.meet-the-hots .alex-kumar .alex-txt .alex-logo {
+  margin-bottom: 24px;
+  padding: 0 70px;
+}
+
+.footer-section {
+  width: 100%;
+  /* height: auto; */
+  background-size: cover;
+}
+
+.footer-section .logo {
+  width: 219px;
+  height: 32px;
+  margin-top: 40px;
+}
+
+.footer-section .podcast-logo {
+  display: grid;
+  /* flex-wrap: wrap; */
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: safe;
+  gap: 16px;
+}
+
+
+
+}
